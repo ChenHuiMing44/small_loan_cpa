@@ -1,0 +1,22 @@
+{
+  "name": "small_loan_cpa",
+  "version": "1.0.0",
+  "description": "small-loan-cpa",
+  "author": "Sansis <shisi.me@gmail.com>",
+  "private": true,
+  "main": "webpack.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.27.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5"
+  }
+}
