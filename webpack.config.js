@@ -1,11 +1,13 @@
 
 const path = require('path');
+let timestamp = (new Date()).valueOf();
+const buildPath = require("./webpack.config/path");
 
 module.exports = {
-	entry: "./lib/rongshu/rongshu1.js",
+	entry: buildPath,
 	output: {
 		path: path.resolve(__dirname , 'dist'),
-		filename: "rongshu1.js"
+		filename: "[name]."+ timestamp + ".js"
 	},
 	module: {
 		rules: [
