@@ -7,7 +7,7 @@ module.exports = {
 	entry: buildPath,
 	output: {
 		path: path.resolve(__dirname , 'dist'),
-		filename: "[name]."+ timestamp + ".js"
+		filename: "[name]" + ".js"
 	},
 	module: {
 		rules: [

@@ -4,7 +4,7 @@ export const billion_cpa_data = {
 	error_url: "http://192.168.1.11:8099/billion-keynes-webapp/cpa/exception_collect",
 	data:{
 		name: "张大爷",
-		tel: "15757177496"
+		tel: "15757125044"
 	}
 }
 
