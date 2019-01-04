@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5"
+    "babel-loader": "^7.1.5",
+    "dsbridge": "^3.1.4"
   }
 }
